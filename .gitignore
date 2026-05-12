@@ -1,0 +1,13 @@
+img_dataset/
+
+# 忽略大文件（视频、模型权重、可执行文件）
+*.mp4
+*.pt
+*.pth
+*.exe
+
+# 忽略 Python 和打包生成的缓存/中间文件
+__pycache__/
+build/
+dist/
+*.spec
